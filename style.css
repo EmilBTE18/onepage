@@ -1,0 +1,110 @@
+header {
+  grid-area: header;
+  background-color: gray;
+  height: 200px;
+
+
+}
+
+nav{
+  grid-area: nav;
+  background-color: black;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+  background-color: #FFFCDE;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+main div {
+  height:180px;
+  width: 180px;
+  background-color: #EBDDC7;
+  margin: 100px;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  height: auto;
+    text-align: center;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: yellow;
+
+  align-items: stretch;
+}
+
+aside {
+  grid-area: aside;
+  background-color: yellow;
+  font-size: 30px;
+  align-items: stretch;
+  font-family: Righteous;
+}
+
+footer {
+  grid-area: footer;
+  background-color: blue;
+  height: 200px;
+
+}
+#emil{
+  background-color: green;
+width: auto;
+  align-items: stretch;
+    height: auto;
+}
+
+#emi2{
+  background-color: green;
+  width: auto;
+  align-items: stretch;
+  height: auto;
+}
+
+#emi3{
+  background-color: green;
+  width: auto;
+  align-items: stretch;
+  height: auto;
+}
+
+#emi4{
+  background-color: green;
+  height: auto;
+  align-items: stretch;
+  width: auto;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+     "nav nav nav nav"
+    "aside main main sidebar"
+    "footer footer footer footer";
+}
+
+@media only screen and (max-width: 1000px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:  auto;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "sidebar"
+    "footer";
+  }
+}

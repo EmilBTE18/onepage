@@ -36,14 +36,14 @@ main div {
 
 #sidebar {
   grid-area: sidebar;
-  background-color: yellow;
+  background-color: orange;
 
   align-items: stretch;
 }
 
 aside {
   grid-area: aside;
-  background-color: yellow;
+  background-color: orange;
   font-size: 30px;
   align-items: stretch;
   font-family: Righteous;
@@ -83,7 +83,7 @@ footer {
   width: auto;
 }
 
-.myButton {
+.knapp {
 	box-shadow:inset 0px 1px 2px 0px #fff6af;
 	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
 	background-color:#ffec64;
@@ -99,11 +99,11 @@ footer {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffee66;
 }
-.myButton:hover {
+.knapp:hover {
 	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
 	background-color:#ffab23;
 }
-.myButton:active {
+.knapp:active {
 	position:relative;
 	top:1px;
 }

@@ -9,3 +9,26 @@ $("#button2").click(function(){
 
 
 });
+
+$("#News").click(function(){
+
+
+  $('html, body').animate({
+        scrollTop: $("#emi2").offset().top
+    }, 4000);
+
+
+
+});
+
+
+$("#Home").click(function(){
+
+
+  $('html, body').animate({
+        scrollTop: $("#emi2").offset().top
+    }, 4000);
+
+
+
+});

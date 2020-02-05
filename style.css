@@ -5,6 +5,9 @@ header {
 
 
 }
+#button2{
+  height: 200px;
+}
 
 nav{
   grid-area: nav;
@@ -17,7 +20,6 @@ nav{
 main {
   grid-area: main;
   background-color: #FFFCDE;
-
   justify-content: space-around;
   align-items: center;
 }
@@ -31,13 +33,12 @@ main div {
   background-repeat: no-repeat;
   font-size: 20px;
   height: auto;
-    text-align: center;
+  text-align: center;
 }
 
 #sidebar {
   grid-area: sidebar;
   background-color: orange;
-
   align-items: stretch;
 }
 
@@ -59,28 +60,29 @@ footer {
   background-color: green;
   width: auto;
   align-items: stretch;
+  height: 500px;
   height: auto;
+
 }
 
 #emi2{
   background-color: green;
   width: auto;
   align-items: stretch;
-  height: auto;
-}
+  height: 500px;}
 
 #emi3{
   background-color: green;
   width: auto;
   align-items: stretch;
-  height: auto;
+  height: 500px;
 }
 
 #emi4{
   background-color: green;
   height: auto;
   align-items: stretch;
-  width: auto;
+   height: 500px;
 }
 
 .knapp {

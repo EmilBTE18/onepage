@@ -5,6 +5,9 @@ header {
 
 
 }
+#button2{
+  height: 200px;
+}
 
 nav{
   grid-area: nav;
@@ -59,28 +62,27 @@ footer {
   background-color: green;
 width: auto;
   align-items: stretch;
-    height: auto;
+    height: 500px;
 }
 
 #emi2{
   background-color: green;
   width: auto;
   align-items: stretch;
-  height: auto;
-}
+    height: 500px;}
 
 #emi3{
   background-color: green;
   width: auto;
   align-items: stretch;
-  height: auto;
+    height: 500px;
 }
 
 #emi4{
   background-color: green;
   height: auto;
   align-items: stretch;
-  width: auto;
+    height: 500px;
 }
 
 #wrapper {

@@ -1,0 +1,135 @@
+header {
+  grid-area: header;
+  background-color: gray;
+  height: 200px;
+
+
+}
+
+nav{
+  grid-area: nav;
+  background-color: black;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+  background-color: #FFFCDE;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+main div {
+  height:180px;
+  width: 180px;
+  background-color: #EBDDC7;
+  margin: 100px;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  height: auto;
+    text-align: center;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: yellow;
+
+  align-items: stretch;
+}
+
+aside {
+  grid-area: aside;
+  background-color: yellow;
+  font-size: 30px;
+  align-items: stretch;
+  font-family: Righteous;
+}
+
+footer {
+  grid-area: footer;
+  background-color: blue;
+  height: 200px;
+
+}
+#emil{
+  background-color: green;
+  width: auto;
+  align-items: stretch;
+  height: auto;
+}
+
+#emi2{
+  background-color: green;
+  width: auto;
+  align-items: stretch;
+  height: auto;
+}
+
+#emi3{
+  background-color: green;
+  width: auto;
+  align-items: stretch;
+  height: auto;
+}
+
+#emi4{
+  background-color: green;
+  height: auto;
+  align-items: stretch;
+  width: auto;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 2px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+     "nav nav nav nav"
+    "aside main main sidebar"
+    "footer footer footer footer";
+}
+
+@media only screen and (max-width: 1000px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:  auto;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "sidebar"
+    "footer";
+  }
+}

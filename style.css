@@ -2,7 +2,8 @@ header {
   grid-area: header;
   background-color: gray;
   height: 200px;
-
+  background-image: url('../bilder/Logga.png');
+  background-size: cover;
 
 }
 #button2{

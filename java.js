@@ -10,7 +10,7 @@ $("#button2").click(function(){
 
 });
 
-$("#News").click(function(){
+$("#about").click(function(){
 
 
   $('html, body').animate({

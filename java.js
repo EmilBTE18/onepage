@@ -22,7 +22,7 @@ $("#News").click(function(){
 });
 
 
-$("#home").click(function(){
+$("#products").click(function(){
 
 
   $('html, body').animate({

@@ -1,9 +1,12 @@
 header {
   grid-area: header;
-  background-color: gray;
+  width: 100%;
+  background-image: url('bilder/Logga.png');
   height: 200px;
-  background-image: url('../bilder/Logga.png');
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 42px;
 
 }
 #button2{

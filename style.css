@@ -45,6 +45,23 @@ main {
   justify-content: space-around;
   align-items: center;
 }
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-140539401000_10 {
+    width: 690px;
+    height: 600px;
+    background-position: -5px -5px;
+}
+
+.sprite-14275339892_a492092df4_z {
+    width: 387px;
+    height: 600px;
+    background-position: -705px -5px;
+}
 
 
 main div {

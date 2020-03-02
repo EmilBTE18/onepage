@@ -1,12 +1,14 @@
 header {
+  padding-top: 250px;
+  height:90px;
   grid-area: header;
   width: 100%;
-  background-image: url('bilder/Logga.png');
-  height: 200px;
-  background-position: center;
+  background-image: url('bilder/GAINZ.png');
+
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 42px;
+
+  background-position: center;
+
 
 }
 #button2{

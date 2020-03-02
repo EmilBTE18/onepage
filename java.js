@@ -1,33 +1,44 @@
 
-$("#button2").click(function(){
 
+$("#cart").click(function(){
+console.log("test");
 
   $('html, body').animate({
-        scrollTop: $("#emi2").offset().top
-    }, 4000);
+        scrollTop: $("#Kundvagn").offset().top
+    }, 2500);
 
 
 
 });
-
 $("#about").click(function(){
-
+console.log("test");
 
   $('html, body').animate({
-        scrollTop: $("#emi2").offset().top
-    }, 4000);
+        scrollTop: $("#Omoss").offset().top
+    }, 2500);
 
 
 
 });
+$("#contact1").click(function(){
+console.log("test");
+
+  $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 2500);
+
+
+
+});
+
 
 
 $("#products").click(function(){
-
+console.log("test");
 
   $('html, body').animate({
-        scrollTop: $("#emi2").offset().top
-    }, 8000);
+        scrollTop: $("#Produkter1").offset().top
+    }, 2500);
 
 
 

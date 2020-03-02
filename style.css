@@ -48,7 +48,7 @@ main {
   align-items: center;
 }
 .sprite {
-    background-image: url('spritesheet.png');
+    background-image: url('bilder/spritesheet.png');
     background-repeat: no-repeat;
     display: block;
 }

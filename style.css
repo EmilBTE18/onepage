@@ -47,30 +47,30 @@ main {
 }
 
 .sprite {
-    background-image: url("bilder/spritesheet.png") no repeat;
+    background-image: url("bilder/spritesheet.png");
     background-repeat: no-repeat;
     display: block;
 }
 
 .sprite-Hantlar {
-    width: 50px;
-    height: 50px;
+    width: 400px;
+    height: 400px;
     display: inline-block;
-    background-position: -55px -55px;
+    background-position: 0px 0px;
 }
 
 .sprite-Crosstrainer {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     display: inline-block;
-    background-position: 5px 5px;
+    background-position: 50px 50px;
 }
 
 .sprite-Cykel {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     display: inline-block;
-    background-position: 5px 5px;
+    background-position: 100px 100px;
 }
 
 

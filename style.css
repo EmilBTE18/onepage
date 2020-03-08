@@ -47,7 +47,7 @@ main {
 }
 
 .sprite {
-    background-image: url("bilder/spritesheet.png") no repeat;
+    background-image: url("bilder/spritesheet.png");
     background-repeat: no-repeat;
     display: block;
 }

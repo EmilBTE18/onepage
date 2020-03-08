@@ -45,30 +45,31 @@ main {
   justify-content: space-around;
   align-items: center;
 }
+
 .sprite {
-    background-image: url('bilder/spritesheet.png');
+    background-image: url("bilder/spritesheet.png");
     background-repeat: no-repeat;
     display: block;
 }
 
 .sprite-140539401000_10 {
-
-    width: 200px;
-    height: 400px;
+    width: 690px;
+    height: 600px;
     background-position: -5px -5px;
 }
 
-.sprite-14275339892_a492092df4_z {
+.sprite-Crosstrainer {
     width: 387px;
     height: 600px;
     background-position: -705px -5px;
 }
 
-.sprite-743px-Fahrrad-Ergometer_01_KMJ {
+.sprite-Cykel {
     width: 743px;
     height: 600px;
     background-position: -5px -615px;
 }
+
 
 main div {
   height:180px;

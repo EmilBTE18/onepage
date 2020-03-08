@@ -53,21 +53,21 @@ main {
 }
 
 .sprite-Hantlar {
-    width: 690px;
-    height: 600px;
-    background-position: -5px -5px;
+    width: 200px;
+    height: 200px;
+    background-position: 10px 10px;
 }
 
 .sprite-Crosstrainer {
-    width: 387px;
-    height: 600px;
-    background-position: -705px -5px;
+    width: 200px;
+    height: 200px;
+    background-position: 10px 10px;
 }
 
 .sprite-Cykel {
-    width: 743px;
-    height: 600px;
-    background-position: -5px -615px;
+    width: 200px;
+    height: 200px;
+    background-position: 10px 10px;
 }
 
 

@@ -56,7 +56,7 @@ main {
     width: 400px;
     height: 400px;
     display: inline-block;
-    background-position: 0px 0px;
+    background-position: 0px -200px;
 }
 
 .sprite-Crosstrainer {

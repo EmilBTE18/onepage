@@ -4,12 +4,8 @@ header {
   grid-area: header;
   width: 100%;
   background-image: url('bilder/GAINZ.png');
-
   background-repeat: no-repeat;
-
   background-position: center;
-
-
 }
 
 .navbar {
@@ -20,6 +16,7 @@ header {
   width: 100%;
   height: 50px;
 }
+
 .navbar a {
   float: left;
   display: block;
@@ -29,7 +26,6 @@ header {
   text-decoration: none;
   font-size: 17px;
 }
-
 
 nav{
   grid-area: nav;
@@ -52,27 +48,23 @@ main {
     display: block;
 }
 
-.sprite-Hantlar {
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-    background-position: 0px -400px;
-}
-
-.sprite-Crosstrainer {
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-    background-position: 50px 50px;
+.sprite-Crosstrainer1 {
+    width: 504px;
+    height: 462px;
+    background-position: -5px -5px;
 }
 
 .sprite-Cykel {
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-    background-position: 100px 100px;
+    width: 504px;
+    height: 416px;
+    background-position: -5px -477px;
 }
 
+.sprite-Hantlar {
+    width: 504px;
+    height: 438px;
+    background-position: -5px -903px;
+}
 
 main div {
   height:180px;
@@ -82,7 +74,7 @@ main div {
   background-repeat: no-repeat;
   font-size: 20px;
   height: auto;
-  text-align: center;
+  text-align: center
 }
 
 #sidebar {
@@ -103,15 +95,13 @@ footer {
   grid-area: footer;
   background-color: blue;
   height: 200px;
-
 }
+
 #Produkter1{
   background-color: green;
   width: auto;
   align-items: stretch;
   height: 500px;
-
-
 }
 
 #Produkter2{
@@ -126,7 +116,7 @@ footer {
     width: auto;
     align-items: stretch;
     height: 500px;
-  }
+}
 
   #Kundvagn{
     background-color: green;
@@ -134,14 +124,15 @@ footer {
     align-items: stretch;
     height: 500px;
       width: auto;
-  }
+}
+
   #Omoss{
     background-color: green;
     height: auto;
     align-items: stretch;
     height: 500px;
       width: auto;
-  }
+}
 
 #contact{
   background-color: green;
@@ -167,10 +158,12 @@ footer {
     text-decoration:none;
     text-shadow:0px 1px 0px #ffee66;
   }
+
   .button:hover {
     background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
     background-color:#ffab23;
   }
+
   .button:active {
     position:relative;
     top:1px;

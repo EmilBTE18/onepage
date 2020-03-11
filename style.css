@@ -43,40 +43,44 @@ nav{
 
 main {
   grid-area: main;
-  background-color: #FFFCDE;
+  background-color: red;
   justify-content: space-around;
   align-items: center;
 }
 
-.sprite {
-    background-image: url("bilder/spritesheet.png");
-    background-repeat: no-repeat;
-    display: block;
+.Crosstrainer, .Cykel, .Hantlar {
+  display:inline-block;
+  overflow:hidden;
+  background-repeat: no-repeat;
+  background-image:url("bilder/nedladdning.png");
 }
 
-.sprite-Crosstrainer1 {
-    width: 504px;
-    height: 462px;
-    background-position: -5px -5px;
+.Crosstrainer {
+  width: 399px;
+  height: 600px;
+  background-position: 0.121286% 0.471698%;
+  background-size: 513.283%;
 }
 
-.sprite-Cykel {
-    width: 504px;
-    height: 416px;
-    background-position: -5px -477px;
+.Cykel {
+  width: 504px;
+  height: 416px;
+  background-position: 58.8731% 0.328947%;
+  background-size: 406.349%;
 }
 
-.sprite-Hantlar {
-    width: 504px;
-    height: 438px;
-    background-position: -5px -903px;
+.Hantlar {
+  width: 504px;
+  height: 438px;
+  background-position: 26.1010% 0.341297%;
+  background-size: 406.349%;
 }
 
 main div {
   height:180px;
   width: 180px;
-  background-color: #EBDDC7;
-  margin: 100px;
+  background-color: white;
+  margin: 60px;
   background-repeat: no-repeat;
   font-size: 20px;
   height: auto;

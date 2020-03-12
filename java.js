@@ -30,6 +30,17 @@ console.log("test");
 
 
 });
+$("#knapp1").click(function(){
+console.log("test");
+
+  $('html, body').animate({
+        scrollTop: $("#contact").offset().top-60
+    }, 2500);
+
+
+
+});
+
 
 
 

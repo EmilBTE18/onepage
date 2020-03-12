@@ -37,7 +37,7 @@ nav{
 
 main {
   grid-area: main;
-  background-color: red;
+  background-color: #696969;
   justify-content: space-around;
   align-items: center;
 }
@@ -50,22 +50,22 @@ main {
 }
 
 .Crosstrainer {
-  width: 399px;
-  height: 600px;
+  width: 80%;
+  height: 80%;
   background-position: 0.121286% 0.471698%;
   background-size: 513.283%;
 }
 
 .Cykel {
-  width: 504px;
-  height: 416px;
+  width: 80%;
+  height: 80%;
   background-position: 58.8731% 0.328947%;
   background-size: 406.349%;
 }
 
 .Hantlar {
-  width: 504px;
-  height: 438px;
+  width: 80%;
+  height: 80%;
   background-position: 26.1010% 0.341297%;
   background-size: 406.349%;
 }
@@ -74,7 +74,7 @@ main div {
   height:180px;
   width: 180px;
   background-color: white;
-  margin: 60px;
+  margin: 30px;
   background-repeat: no-repeat;
   font-size: 20px;
   height: auto;
@@ -102,48 +102,49 @@ footer {
 }
 
 #Produkter1{
-  background-color: green;
+  background-color: white;
   width: auto;
   align-items: stretch;
   height: 500px;
 }
 
 #Produkter2{
-  background-color: green;
+  background-color: white;
   width: auto;
   align-items: stretch;
   height: 500px;
 }
 
   #Produkter3{
-    background-color: green;
+    background-color: white;
     width: auto;
     align-items: stretch;
     height: 500px;
 }
 
   #Kundvagn{
-    background-color: green;
+    background-color: white;
     height: auto;
     align-items: stretch;
     height: 500px;
-      width: auto;
+    width: auto;
 }
 
   #Omoss{
-    background-color: green;
+
+    background-color: white;
     height: auto;
     align-items: stretch;
     height: 500px;
-      width: auto;
+    width: auto;
 }
 
 #contact{
-  background-color: green;
 
+  background-color: white;
   align-items: stretch;
   height: 500px;
-    width: auto;
+  width: auto;
 }
 
   .button {
@@ -185,6 +186,12 @@ footer {
   }
 
   @media only screen and (max-width: 1000px) {
+    .Hantlar {
+
+        height: 80%;
+
+}
+
     #wrapper {
       display: grid;
       grid-template-columns: 100%;

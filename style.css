@@ -56,22 +56,22 @@ main {
 }
 
 .Crosstrainer {
-  width: 80%;
-  height: 80%;
+  width: 30%;
+  height: 70%;
   background-position: 0.121286% 0.471698%;
   background-size: 513.283%;
 }
 
 .Cykel {
-  width: 80%;
-  height: 80%;
+  width: 55%;
+  height: 65%;
   background-position: 58.8731% 0.328947%;
   background-size: 406.349%;
 }
 
 .Hantlar {
-  width: 80%;
-  height: 80%;
+  width: 55%;
+  height: 70%;
   background-position: 26.1010% 0.341297%;
   background-size: 406.349%;
 }
@@ -80,7 +80,7 @@ main div {
   height:180px;
   width: 180px;
   background-color: white;
-  margin: 30px;
+  margin: 60px;
   background-repeat: no-repeat;
   font-size: 20px;
   height: auto;
@@ -103,7 +103,7 @@ aside {
 
 footer {
   grid-area: footer;
-  background-color: blue;
+  background-color: grey;
   height: 200px;
 }
 

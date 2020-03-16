@@ -46,8 +46,9 @@ console.log("test");
 
 
 $("#knapp10").click(function(){
-console.log(x);
+
  x=x+1
+ console.log(x);
 
 
 
@@ -55,8 +56,9 @@ console.log(x);
 
 
 $("#knapp11").click(function(){
-console.log(y);
+
  y=y+1
+ console.log(y);
 
 
 
@@ -64,8 +66,9 @@ console.log(y);
 
 
 $("#knapp12").click(function(){
-console.log(z);
+
  z=z+1
+ console.log(z);
 
 
 

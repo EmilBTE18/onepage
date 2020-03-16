@@ -1,6 +1,18 @@
 var x=0;
 var y=0;
 var z=0;
+var xt=0;
+var yt=0;
+var zt=0;
+var a=0;
+var at=0;
+
+ $("#Hantlar1").text("Hantlar "+x+" st "+xt+"KR");
+  $("#Crosstrainer1").text("Träningscykel "+y+" st "+yt+"KR");
+   $("#motionscykeln1").text("Hantlar "+x+" st "+xt+"KR");
+    $("#Total").text("Totalakostnad "+at+" KR");
+
+
 
 $("#cart").click(function(){
 console.log("test");
@@ -47,7 +59,14 @@ console.log("test");
 
 $("#knapp10").click(function(){
 
- x=x+1
+  x=x+1;
+xt=x*499;
+at=xt+yt+zt;
+  $("#Hantlar1").text("Hantlar "+x+" st "+xt+"KR");
+   $("#Crosstrainer1").text("Träningscykel "+y+" st "+yt+"KR");
+    $("#motionscykeln1").text("Hantlar "+x+" st "+xt+"KR");
+     $("#Total").text("Totalakostnad "+at+" KR");
+
  console.log(x);
 
 
@@ -57,8 +76,17 @@ $("#knapp10").click(function(){
 
 $("#knapp11").click(function(){
 
- y=y+1
- console.log(y);
+  y=y+1;
+yt=y*499;
+at=xt+yt+zt;
+  $("#Hantlar1").text("Hantlar "+x+" st "+xt+"KR");
+   $("#Crosstrainer1").text("Träningscykel "+y+" st "+yt+"KR");
+    $("#motionscykeln1").text("Hantlar "+x+" st "+xt+"KR");
+     $("#Total").text("Totalakostnad "+at+" KR");
+
+
+
+
 
 
 
@@ -67,8 +95,13 @@ $("#knapp11").click(function(){
 
 $("#knapp12").click(function(){
 
- z=z+1
- console.log(z);
+  y=y+1;
+yt=y*499;
+at=xt+yt+zt;
+  $("#Hantlar1").text("Hantlar "+x+" st "+xt+"KR");
+   $("#Crosstrainer1").text("Träningscykel "+y+" st "+yt+"KR");
+    $("#motionscykeln1").text("Hantlar "+x+" st "+xt+"KR");
+     $("#Total").text("Totalakostnad "+at+" KR");
 
 
 

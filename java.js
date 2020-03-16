@@ -7,10 +7,10 @@ var zt=0;
 var a=0;
 var at=0;
 
- $("#Hantlar1").text("Hantlar "+x+" st "+xt+"KR");
-  $("#Crosstrainer1").text("Träningscykel "+y+" st "+yt+"KR");
-   $("#motionscykeln1").text("Hantlar "+x+" st "+xt+"KR");
-    $("#Total").text("Totalakostnad "+at+" KR");
+ $("#Hantlar1").text("Hantlar: "+x+" st "+xt+"KR");
+  $("#Crosstrainer1").text("Crosstrainer: "+y+" st "+yt+"KR");
+   $("#motionscykeln1").text("Motionscykel: "+x+" st "+xt+"KR");
+    $("#Total").text("Totalkostnad: "+at+" KR");
 
 
 
@@ -62,10 +62,10 @@ $("#knapp10").click(function(){
   x=x+1;
 xt=x*499;
 at=xt+yt+zt;
-  $("#Hantlar1").text("Hantlar "+x+" st "+xt+"KR");
-   $("#Crosstrainer1").text("Träningscykel "+y+" st "+yt+"KR");
-    $("#motionscykeln1").text("Hantlar "+x+" st "+xt+"KR");
-     $("#Total").text("Totalakostnad "+at+" KR");
+  $("#Hantlar1").text("Hantlar: "+x+" st "+xt+"KR");
+   $("#Crosstrainer1").text("Crosstrainer: "+y+" st "+yt+"KR");
+    $("#motionscykeln1").text("Motionscykel: "+x+" st "+xt+"KR");
+     $("#Total").text("Totalkostnad: "+at+" KR");
 
  console.log(x);
 
@@ -77,12 +77,12 @@ at=xt+yt+zt;
 $("#knapp11").click(function(){
 
   y=y+1;
-yt=y*499;
+yt=y*1999;
 at=xt+yt+zt;
-  $("#Hantlar1").text("Hantlar "+x+" st "+xt+"KR");
-   $("#Crosstrainer1").text("Träningscykel "+y+" st "+yt+"KR");
-    $("#motionscykeln1").text("Hantlar "+x+" st "+xt+"KR");
-     $("#Total").text("Totalakostnad "+at+" KR");
+  $("#Hantlar1").text("Hantlar: "+x+" st "+xt+"KR");
+   $("#Crosstrainer1").text("Crosstrainer: "+y+" st "+yt+"KR");
+    $("#motionscykeln1").text("Motionscykel: "+x+" st "+xt+"KR");
+     $("#Total").text("Totalkostnad: "+at+" KR");
 
 
 
@@ -96,19 +96,14 @@ at=xt+yt+zt;
 $("#knapp12").click(function(){
 
   y=y+1;
-yt=y*499;
+yt=y*999;
 at=xt+yt+zt;
-  $("#Hantlar1").text("Hantlar "+x+" st "+xt+"KR");
-   $("#Crosstrainer1").text("Träningscykel "+y+" st "+yt+"KR");
-    $("#motionscykeln1").text("Hantlar "+x+" st "+xt+"KR");
-     $("#Total").text("Totalakostnad "+at+" KR");
-
-
+  $("#Hantlar1").text("Hantlar: "+x+" st "+xt+"KR");
+   $("#Crosstrainer1").text("Crosstrainer: "+y+" st "+yt+"KR");
+    $("#motionscykeln1").text("Motionscykel: "+x+" st "+xt+"KR");
+     $("#Total").text("Totalkostnad: "+at+" KR");
 
 });
-
-
-
 
 
 $("#products").click(function(){

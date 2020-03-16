@@ -1,4 +1,6 @@
-
+var x=0;
+var y=0;
+var z=0;
 
 $("#cart").click(function(){
 console.log("test");
@@ -10,6 +12,7 @@ console.log("test");
 
 
 });
+
 $("#about").click(function(){
 console.log("test");
 
@@ -40,6 +43,34 @@ console.log("test");
 
 
 });
+
+
+$("#knapp10").click(function(){
+console.log(x);
+ x=x+1
+
+
+
+});
+
+
+$("#knapp11").click(function(){
+console.log(y);
+ y=y+1
+
+
+
+});
+
+
+$("#knapp12").click(function(){
+console.log(z);
+ z=z+1
+
+
+
+});
+
 
 
 

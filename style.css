@@ -72,8 +72,8 @@ main {
 }
 
 .Crosstrainer {
-  width: 0%;
-  height: 61%;
+  width: 40%;
+  height: 70%;
   background-position: 0.121286% 0.471698%;
   background-size: 513.283%;
 }
@@ -92,14 +92,26 @@ main {
   background-size: 406.349%;
 }
 
-.bildruta{
+.bildruta1{
   overflow: hidden;
-  height:40%;
-  width:40%;
-
+  padding-left: 11%;
+  height:325px;
+  width:329px;
 }
 
+.bildruta2{
+  overflow: hidden;
+  padding-left: 11%;
+  height:300px;
+  width:200px;
+}
 
+.bildruta3{
+  overflow: hidden;
+  padding-left: 11%;
+  height:325px;
+  width:329px;
+}
 
 main div {
   height:200px;
@@ -134,27 +146,34 @@ footer {
 
 #Produkter1{
   background-color: white;
+  font-family: Arial;
   width: auto;
   align-items: stretch;
   height: 500px;
+  height: auto;
 }
 
 #Produkter2{
   background-color: white;
+  font-family: Arial;
   width: auto;
   align-items: stretch;
   height: 500px;
+  height: auto;
 }
 
   #Produkter3{
     background-color: white;
+    font-family: Arial;
     width: auto;
     align-items: stretch;
     height: 500px;
+    height: auto;
 }
 
   #Kundvagn{
     background-color: white;
+    font-family: Arial;
     height: auto;
     align-items: stretch;
     height: 500px;
@@ -164,6 +183,7 @@ footer {
   #Omoss{
 
     background-color: white;
+    font-family: Arial;
     height: auto;
     align-items: stretch;
     height: 500px;
@@ -173,6 +193,7 @@ footer {
 #contact{
 
   background-color: white;
+  font-family: Arial;
   align-items: stretch;
   height: 500px;
   width: auto;
@@ -219,7 +240,19 @@ footer {
   @media only screen and (max-width: 1000px) {
     .Hantlar {
 
-        height: 80%;
+        height: 70%;
+
+}
+
+.Crosstrainer {
+
+    height: 70%;
+
+}
+
+.Cykel {
+
+    height: 70%;
 
 }
 

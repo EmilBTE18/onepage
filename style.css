@@ -64,38 +64,35 @@ main {
   align-items: center;
 }
 
-.Crosstrainer, .Cykel, .Hantlar {
+.crosstrainer123, .cykel123, .hantlar123 {
   overflow:hidden;
-  padding-left: 70%;
-  padding-bottom: 16%;
   background-repeat: no-repeat;
-  background-image:url("bilder/nedladdning.png");
-}
+  background-image:url("bilder/sprite.png");}
 
-.Crosstrainer {
+.crosstrainer123 {
   width: 0%;
   height: 65%;
-  background-position: 0.121286% 0.471698%;
-  background-size: 513.283%;
+  background-position: 0.252525% 0.316456%;
+  background-size: 441.379%;
 }
 
-.Cykel {
+.cykel123 {
   width: 15%;
   height: 65%;
-  background-position: 58.8731% 0.328947%;
-  background-size: 406.349%;
+  background-position: 91.5916% 0.273598%;
+  background-size: 286.034%;
 }
 
-.Hantlar {
-  width: 14%;
-  height: 65%;
-  background-position: 26.1010% 0.341297%;
-  background-size: 406.349%;
+.hantlar123 {
+  width: 10%;
+  height: 50%;
+  background-position: 36.1963% 0.276243%;
+  background-size: 275.269%;
 }
 
 main div {
-  height:180px;
-  width: 180px;
+  height:200px;
+  width: 200px;
   background-color: white;
   margin: 7%;
   padding-bottom: 6%;

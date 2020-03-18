@@ -67,35 +67,35 @@ main {
 .Crosstrainer, .Cykel, .Hantlar {
   overflow:hidden;
   padding-left: 70%;
-  padding-bottom: 16%;
+  padding-bottom: 8%;
   background-repeat: no-repeat;
   background-image:url("bilder/nedladdning.png");
 }
 
 .Crosstrainer {
   width: 0%;
-  height: 65%;
+  height: 61%;
   background-position: 0.121286% 0.471698%;
   background-size: 513.283%;
 }
 
 .Cykel {
   width: 15%;
-  height: 65%;
+  height: 61%;
   background-position: 58.8731% 0.328947%;
   background-size: 406.349%;
 }
 
 .Hantlar {
-  width: 14%;
-  height: 65%;
+  width: 10%;
+  height: 61%;
   background-position: 26.1010% 0.341297%;
   background-size: 406.349%;
 }
 
 main div {
-  height:180px;
-  width: 180px;
+  height:200px;
+  width: 200px;
   background-color: white;
   margin: 7%;
   padding-bottom: 6%;

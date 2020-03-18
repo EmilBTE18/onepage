@@ -93,10 +93,11 @@ main {
 }
 
 .bildruta{
+  overflow: hidden;
   height:40%;
   width:40%;
 
-} 
+}
 
 
 

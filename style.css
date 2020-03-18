@@ -30,6 +30,16 @@ header {
   height: auto;
 }
 
+#Omoss1 {
+  background-color: white;
+  font-family: Arial;
+  height: auto;
+  align-items: stretch;
+  height: 500px;
+  width: auto;
+
+}
+
 .navbar {
   overflow: hidden;
   font-family: Arial;

@@ -67,7 +67,6 @@ main {
 .Crosstrainer, .Cykel, .Hantlar {
   overflow:hidden;
   padding-left: 70%;
-  padding-bottom: 8%;
   background-repeat: no-repeat;
   background-image:url("bilder/nedladdning.png");
 }
@@ -88,7 +87,7 @@ main {
 
 .Hantlar {
   width: 10%;
-  height: 61%;
+  height: 71%;
   background-position: 26.1010% 0.341297%;
   background-size: 406.349%;
 }
